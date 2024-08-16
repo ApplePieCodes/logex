@@ -1,0 +1,14 @@
+[package]
+name = "logex"
+version = "0.1.0"
+authors = ["Liam Greenway <ApplePiePc@outlook.com>"]
+edition = '2021'
+rust-version = "1.81"
+description = "A simple logger I made for my game engine. Use it as you want."
+repository = "https://github.com/ApplePieCodes/logex"
+license = "Apache-1.0"
+keywords = ["logger", "console", "simple"]
+catagories = ["development-tools::debugging"]
+
+[dependencies]
+colored = "*"
