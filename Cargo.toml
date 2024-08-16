@@ -9,6 +9,7 @@ repository = "https://github.com/ApplePieCodes/logex"
 license = "Apache-1.0"
 keywords = ["logger", "console", "simple"]
 categories = ["development-tools::debugging"]
+readme = "README.md"
 
 [dependencies]
 colored = "2.1.0"
