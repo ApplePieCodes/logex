@@ -15,9 +15,9 @@ pub fn log(s: &str, c: LogType) {
     match c {
         LogType::Info => println!("{}: {}", "[INFO]".bold().bright_white(), s),
         LogType::Warning => println!("{}: {}", "[WARNING]".bold().yellow(), s),
-        LogType::Error => println!("{}: {}", "[INFO]".bold().red(), s),
+        LogType::Error => println!("{}: {}", "[ERROR]".bold().red(), s),
         LogType::FatalError => {
-            println!("{}: {}", "[INFO]".bold().truecolor(139, 0, 0), s);
+            println!("{}: {}", "[FATAL ERROR]".bold().truecolor(139, 0, 0), s);
             panic!();
         }
     }
