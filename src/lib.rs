@@ -16,6 +16,9 @@ pub fn log(s: &str, c: LogType) {
         LogType::Info => println!("{}: {}", "[INFO]".bold().bright_white(), s),
         LogType::Warning => println!("{}: {}", "[WARNING]".bold().yellow(), s),
         LogType::Error => println!("{}: {}", "[INFO]".bold().red(), s),
-        LogType::FatalError => println!("{}: {}", "[INFO]".bold().truecolor(139, 0, 0), s)
+        LogType::FatalError => {
+            println!("{}: {}", "[INFO]".bold().truecolor(139, 0, 0), s);
+            panic!();
+        }
     }
 }
