@@ -1,6 +1,6 @@
 [package]
 name = "logex"
-version = "2.0.0"
+version = "2.0.1"
 authors = ["Liam Greenway <ApplePiePc@outlook.com>"]
 edition = "2024"
 description = "A simple logger for Rust command line applications"

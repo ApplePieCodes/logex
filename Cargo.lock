@@ -19,7 +19,7 @@ checksum = "6e6ec93b2f388dcd1102437036da399ae305e9c6cdd4e213260f5ddb6005907a"
 
 [[package]]
 name = "logex"
-version = "2.0.0"
+version = "2.0.1"
 dependencies = [
  "colored",
  "galvanic-test",
