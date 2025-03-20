@@ -1,0 +1,17 @@
+[package]
+name = "logex"
+version = "2.0.0"
+authors = ["Liam Greenway <ApplePiePc@outlook.com>"]
+edition = "2024"
+description = "A simple logger for Rust command line applications"
+repository = "https://github.com/ApplePieCodes/logex"
+license = "MPL-2.0"
+keywords = ["logger", "console", "simple"]
+categories = ["development-tools::debugging", "command-line-interface"]
+readme = "README.md"
+
+[dependencies]
+colored = "=3.0.0"
+
+[dev-dependencies]
+galvanic-test = "=0.2.0"
